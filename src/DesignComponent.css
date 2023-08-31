@@ -1,0 +1,10 @@
+.button{
+    height: auto;
+    width: auto;
+    border: 2px;
+    font-size: small;
+    border-radius: 5px;
+}
+.button:hover{
+    border-color: white;
+}

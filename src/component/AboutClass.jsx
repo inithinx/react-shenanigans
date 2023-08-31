@@ -18,7 +18,7 @@ export default class AboutClass extends Component {
         )
     }
     mouseHoverEvent(){
-        console.log("Hello!")
+        console.log("Hello from Hover!")
     }
 
     inputChange(event){

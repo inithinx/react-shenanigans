@@ -14,7 +14,10 @@ export default class RenderingComponent extends Component {
         return (
             <>
             <ul>
-                { this.state.fruits.map((fruit,index) => {return <li>{index}:{fruit}</li>}) }
+                { this.state.fruits.map((fruit,index) => {
+                    return <li>
+                        {index}:{fruit}
+                        </li>})}
             </ul>
             <div> Rendering Component: </div>
             {this.state.show && this.state.text}

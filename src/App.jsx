@@ -1,9 +1,11 @@
 import './App.css'
+//who needs styling ?
 import Home from './component/Home'
 import About from './component/About'
 import AboutClass from './component/AboutClass'
 import LifeCycle from './component/LifeCycle'
 import RenderingComponent from './component/RenderingComponent'
+import DesignComponent from './component/DesignComponent'
 function App() {
   return (
     <>
@@ -16,6 +18,8 @@ function App() {
     <LifeCycle name="Mount Lifecycle" />
     <br></br>
     <RenderingComponent />
+    <br></br>
+    <DesignComponent />
     </>
   )
 }
