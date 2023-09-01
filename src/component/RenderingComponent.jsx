@@ -8,7 +8,6 @@ export default class RenderingComponent extends Component {
         }
     }
     changeShow(){ this.setState({show: !this.state.show}) }
-
     render() {
         var variable = this.state.show ? 'Hide': 'Show'
         return (
@@ -21,7 +20,7 @@ export default class RenderingComponent extends Component {
             </ul>
             <div> Rendering Component: </div>
             {this.state.show && this.state.text}
-            <button onClick={()=> this.changeShow()}>{variable}</button>
+            <button onClick={()=>this.changeShow()}>{variable}</button>
             </>
         )
     }
